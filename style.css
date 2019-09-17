@@ -19,7 +19,7 @@ ol{
 }
 #grid{
   display: grid;
-  grid-template-columns: 150px 1fr;
+  grid-template-columns: 100px 1fr;
 }
 #grid ol{
   padding-left:33px;
@@ -27,7 +27,7 @@ ol{
 #grid #article{
   padding-left:25px;
 }
-@media(max-width:400px){
+@media(max-width:250px){
   #grid{
     display: block;
   }
