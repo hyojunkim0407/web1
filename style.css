@@ -1,9 +1,6 @@
 body{
   margin:0;
 }
-a {
-  color:black;
-}
 h1 {
   font-size:45px;
   text-align: center;
@@ -19,7 +16,7 @@ ol{
 }
 #grid{
   display: grid;
-  grid-template-columns: 100px 1fr;
+  grid-template-columns: 150px 1fr;
 }
 #grid ol{
   padding-left:33px;
@@ -27,7 +24,7 @@ ol{
 #grid #article{
   padding-left:25px;
 }
-@media(max-width:250px){
+@media(max-width:800px){
   #grid{
     display: block;
   }
