@@ -10,21 +10,21 @@ h1 {
 }
 ol{
   border-right:1px solid gray;
-  width:80px;
+  width:100px;
   margin:0;W
   padding:20px;
 }
 #grid{
   display: grid;
-  grid-template-columns: 100px 1fr;
+  grid-template-columns: 150px 1fr;
 }
 #grid ol{
   padding-left:33px;
 }
 #grid #article{
-  padding-left:40px;
+  padding-left:25px;
 }
-@media(max-width:400px){
+@media(max-width:800px){
   #grid{
     display: block;
   }
